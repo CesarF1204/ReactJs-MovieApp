@@ -99,6 +99,7 @@ const MovieApp = (props) => {
 
     return(
         <div>
+            
             <Route path="/movies/home">
             <h1>Cinema One</h1>
             <div>
@@ -120,7 +121,7 @@ const MovieApp = (props) => {
                     <option value="Animation">Animation</option>
                 </select>
                 {movies.length === 0 ? <p>No Data To Show</p> :
-                <table border="1">
+                <table>
                     <thead>
                         <tr>
                             <th>Title</th>
@@ -143,7 +144,7 @@ const MovieApp = (props) => {
             <Link className="App-link" to="/movies/home">Movies</Link><br/>
                 <h1>My Movie Cart</h1>
                 {movieCarts.length === 0 ? <p>No Data To Show</p> :
-                <table border="1">
+                <table>
                     <thead>
                         <tr>
                             <th>Title</th>

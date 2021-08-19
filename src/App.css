@@ -21,6 +21,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+.title-header {
+  text-decoration: none;
+  color: white;
+  font-size: 60px;
+}
 .links {
   display: flex;
   flex-direction: row;
@@ -39,7 +44,6 @@ td {
   color: black;
   background-color: #d8d8d8;
 }
-
 
 input[type='text'], input[type='number'], select  {
   background: none;
